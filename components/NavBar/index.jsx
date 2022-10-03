@@ -28,7 +28,7 @@ function NavBar () {
           }}
         >
           <Image
-            src='/img/logo-NASA.png'
+            src='/img/Logo-NASA.png'
             alt='Logotipo BioSpace'
             width={50}
             height={50}
@@ -43,7 +43,7 @@ function NavBar () {
         >
           <Navbar.Link href='#challenge'>Challenge</Navbar.Link>
           <Navbar.Link href='#problems'>Problems</Navbar.Link>
-          <Navbar.Link href='#super_biobac'>Super BioBec</Navbar.Link>
+          <Navbar.Link href='#super_biobac'>Super BioBac</Navbar.Link>
           {/* <Navbar.Link href='#cuatro'>Company</Navbar.Link> */}
         </Navbar.Content>
         <Navbar.Collapse disableAnimation>
