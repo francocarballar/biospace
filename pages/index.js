@@ -20,10 +20,10 @@ export default function Home () {
     //container.scrollTop = container.scrollHeight
   })
   const moveToRight = () => {
-    container.scrollLeft += 425
+    container.scrollLeft += 400
   }
   const moveToLeft = () => {
-    container.scrollLeft -= 425
+    container.scrollLeft -= 400
   }
   return (
     <>
@@ -32,7 +32,7 @@ export default function Home () {
         className='w-full flex justify-center items-center text-center mt-8'
         id='problems'
       >
-        <h2>PROBLEMS DETECTED</h2>
+        <h2 className='font-bold text-3xl'>PROBLEMS DETECTED</h2>
       </div>
       <section className='flex justify-center items-start relative'>
         <section
@@ -84,7 +84,7 @@ export default function Home () {
         className='w-full flex justify-center items-center text-center mt-8'
         id='super_biobac'
       >
-        <h2>¡HI! I AM SUPER BIOBAC</h2>
+        <h2 className='font-bold text-3xl'>¡HI! I AM SUPER BIOBAC</h2>
       </div>
       <BioBac />
       <section className='flex flex-col justify-center items-start w-full h-auto py-4 px-16 md:px-36'>
@@ -120,6 +120,26 @@ export default function Home () {
       </section>
       <Video />
       <TimeLine />
+      <section
+        className='flex flex-col justify-center items-center gap-5 w-full h-auto py-16 px-16 md:px-36 text-center text-white'
+        id='mission'
+        style={{
+          backgroundImage: 'url(/img/mission-background.jpg)',
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center',
+          objectFit: 'cover',
+          backgroundSize: 'cover'
+        }}
+      >
+        <h2 className='font-bold text-3xl'>Mission</h2>
+        <h3 className='font-semibold text-2xl'>
+          <b className='text-pink-600'>I`M</b>POSSIBLE Interplanetary life.
+        </h3>
+        <p>
+          We thought our hero with different habilities and capablities to
+          overcome ne xt challenges for future interplanetary life
+        </p>
+      </section>
     </>
   )
 }

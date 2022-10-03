@@ -44,7 +44,7 @@ function NavBar () {
           <Navbar.Link href='#challenge'>Challenge</Navbar.Link>
           <Navbar.Link href='#problems'>Problems</Navbar.Link>
           <Navbar.Link href='#super_biobac'>Super BioBac</Navbar.Link>
-          {/* <Navbar.Link href='#cuatro'>Company</Navbar.Link> */}
+          <Navbar.Link href='#mission'>Mission</Navbar.Link>
         </Navbar.Content>
         <Navbar.Collapse disableAnimation>
           {collapseItems.map((item, index) => (
